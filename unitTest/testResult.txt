@@ -1,0 +1,15 @@
+testAdd (unitTest.testCase.IntegerArithmeticTestCase) ... ok
+testMultiply (unitTest.testCase.IntegerArithmeticTestCase) ... FAIL
+
+======================================================================
+FAIL: testMultiply (unitTest.testCase.IntegerArithmeticTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\20210220\unitTest\testCase.py", line 19, in testMultiply
+    self.assertEqual((5 * 8), 41, '5*8结果错了')
+AssertionError: 40 != 41 : 5*8结果错了
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
