@@ -10,6 +10,6 @@ class TestA:
         print("{0}{1}{2}{3}".format("0", "1", "2", "3"))
 
 
-a = TestA()
-a.print_self()
-print(a.a)
+a1 = TestA()
+a1.print_self()
+print(a1.a)
